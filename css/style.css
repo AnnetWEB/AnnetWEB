@@ -1,0 +1,97 @@
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+width: 80%;
+margin: auto;
+height: 450px;
+}
+
+#myCarousel{
+	width:90%;
+	margin:0 auto;
+	margin-top:40px;
+}
+#accordion{
+	width:90%;
+	margin:0 auto;
+}
+h2{
+	text-align: center;
+}
+.panel-heading{
+background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(grey,lightgrey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(grey,lightgrey); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(grey,lightgrey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(grey,lightgrey); /* Standard syntax */
+	
+}
+.panel-heading:hover{
+color:white;
+background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black,darkgrey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black,darkgrey); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black,darkgrey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black,darkgrey); /* Standard syntax */
+    
+
+     box-shadow: 2px 2px 2px grey;
+     -moz-box-shadow:  2px 2px 2px grey;
+     -webkit-box-shadow: 2px 2px 2px grey;	
+}
+
+
+.panel.panel-default{
+	margin-top: 25px;
+	margin-bottom: 8px;
+}	
+img.img-circle{
+margin-left: 10px;
+margin-right: 5px;
+margin-top: 20px;
+}
+img.img-circle:nth-last-child(4){
+margin-right:10px;
+}
+.mycontainer{
+	background-color: lightgrey;
+	margin:0 auto;
+	width:50%;
+}
+.img-rounded{
+	display: block;
+	margin:0 auto;
+}
+ main{
+	width:80%;
+	height:200px;
+	background-color: darkblue;
+	float:left; 
+	
+}
+ aside{
+	width:20%;
+	height:200px;
+	background-color: aqua;
+	float: left;
+}
+h4.panel-title {
+	text-align: center;
+}
+footer{
+	text-align:center;
+	background: black;
+	width:100%;
+	color:white;
+	padding: 20px;
+}
+ul.inner-nav li{
+	display:inline;
+	padding-right: 15px;
+}
+ul.inner-nav a {
+	text-decoration: none;
+}
+ul.inner-nav a:hover{
+	background-color: black;
+	color:white;
+}

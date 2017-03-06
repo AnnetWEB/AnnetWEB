@@ -1,0 +1,20 @@
+body{
+	background: lightgrey;
+	font-family: sans-serif;
+}
+#wrapper{
+	margin: auto;
+	width: 50%;
+}
+blockquote{
+	border: 1px solid white;
+	text-align: center;
+	margin-left:0px;
+	color:black;
+	/*text-shadow: 
+	1px -1px 0 white,
+	2px -1px 0 red
+	;
+	*/
+}
+ 
